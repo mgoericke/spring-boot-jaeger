@@ -1,0 +1,16 @@
+server:
+  port: 7002
+
+spring:
+  application:
+    name: Backend Service
+
+opentracing:
+  jaeger:
+    udp-sender:
+      host: localhost
+      port: 6831
+
+application:
+  other-backend:
+    url: "http://localhost:7003/api/other-backend"
