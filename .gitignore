@@ -29,3 +29,6 @@ build/
 
 ### VS Code ###
 .vscode/
+backend/src/test/
+compute/src/test/
+other-backend/src/test/
